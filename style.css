@@ -1,0 +1,109 @@
+body {
+    background-color: #DDDEE3;
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+.center {
+    border-radius: 20px;
+    box-shadow: 18px 18px 22px 0 #cbccd1, -18px -18px 22px 0 #eff0f5;
+    color: #000;
+    cursor: pointer;
+    font-family: Allison, cursive;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+    transition: transform .3s ease, -webkit-transform .3s ease;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.center:hover {
+    border-radius: 20px;
+    box-shadow: 18px 18px 22px 0 #cbccd1, -18px -18px 22px 0 #eff0f5;
+    color: #000;
+    cursor: pointer;
+    font-family: Allison, cursive;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+    transition: transform .3s ease, -webkit-transform .3s ease;
+    height: 220px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+}
+
+.fontstyle {
+    /* position: fixed; */
+    font-size: 24px;
+    margin: 15px;
+    padding: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.secondContainer {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* height: 100vh; */
+    justify-content: space-evenly;
+}
+
+.middleinfo {
+    border-radius: 20px;
+    box-shadow: 18px 18px 22px 0 #cbccd1, -18px -18px 22px 0 #eff0f5;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+.headingName {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 40px;
+}
+
+.about {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Allison;
+    src: url('Allison_Script.otf');
+}
+.profile-info-font{
+    text-transform: capitalize;
+
+}
